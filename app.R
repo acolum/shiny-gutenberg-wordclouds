@@ -51,7 +51,7 @@ ui <- fluidPage(
         h5("My session information:"), verbatimTextOutput("sessionInfo")),
       tabPanel("Contact", icon = icon("envelope"),
         h3("Any bugs/issues?"),
-        h4(tags$ul(tags$li(a("Send me a message", href = "mailto:acolumbusonl@gmail.com", target = "_blank")))),
+        h4(tags$ul(tags$li(a("Send me a message", href = "mailto:hello@alyssacolumbus.com", target = "_blank")))),
         h3("Want to connect?"),
         h4(tags$ul(tags$li("Follow me on", a("GitHub", href = "https://github.com/acolum", target = "_blank")),
         tags$li(a("Tweet Me", href = "https://twitter.com/alycolumbus", target = "_blank"))))
